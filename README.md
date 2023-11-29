@@ -5,7 +5,7 @@ Mind Plus block for DRV8833 motor driver module
 * 单块DRV8833模块支持最多2台电机
 * 单块DRV8833模块电能转化效率为91%左右
 * 操控单台电机的真值表如下：
-![Image](_images/truthTable.png)
+![Image](arduinoC/_images/truthTable.png)
 
 其中：<br>
 IN1和IN2是输入信号，可以是数字电平0或1。<br>
