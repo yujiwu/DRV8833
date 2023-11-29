@@ -1,0 +1,25 @@
+{
+	"name": {
+		"zh-cn": "DRV8833电机模块",
+		"en": "DRV8833 motor module"
+	},
+	"description": {
+		"zh-cn": "德州仪器的drv8833使用mos管驱动2台电机，含H桥电路   作者: UG",
+		"en": "Texas Instructment-made DRV8833, containing H-bridge circuit, is able to drive 2 motors simultaneously"
+	},
+	"author": "UG",
+	"email": "cswuyujieapp@126.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "drv8833",
+	"platform": ["win", "mac", "web"],
+	"version": "0.0.1",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.1",
+			"board": ["arduino", "arduinonano"],
+			"main": "main.ts"
+		}
+	}
+}
