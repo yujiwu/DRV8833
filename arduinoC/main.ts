@@ -39,7 +39,7 @@ namespace drv8833 {
             case 'Backward':
                 Generator.addCode(`${list}.backward();`);
                 break;
-            case 'Stop':
+            case 'Brake':
                 Generator.addCode(`${list}.brake();`);
                 break;
         }
