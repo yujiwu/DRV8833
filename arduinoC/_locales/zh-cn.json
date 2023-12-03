@@ -3,6 +3,7 @@
     "drv8833.motorAction|block": "电机[LIST][ACTION]",
     "drv8833.actions.Forward|menu": "前进",
     "drv8833.actions.Backward|menu": "后退",
-    "drv8833.actions.Brake|menu": "刹车"
+    "drv8833.actions.Brake|menu": "刹车",
+    "drv8833.actions.Stop|menu": "急停"
     
 }

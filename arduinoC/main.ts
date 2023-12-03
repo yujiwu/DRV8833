@@ -9,7 +9,7 @@ enum pins {
 }
 
 enum actions {
-    Forward, Backward, Brake
+    Forward, Backward, Brake, Stop
 }
 
 //% color="#292826" iconWidth=40 iconHeight=40
@@ -41,6 +41,9 @@ namespace drv8833 {
                 break;
             case 'Brake':
                 Generator.addCode(`${list}.brake();`);
+                break;
+            case 'Stop':
+                Generator.addCode(`${list}.coast();`);
                 break;
         }
     }
